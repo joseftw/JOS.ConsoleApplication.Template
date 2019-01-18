@@ -1,0 +1,12 @@
+{
+  "author": "Josef Ottosson",
+  "classifications": [ "Console" ],
+  "name": "JOS.ConsoleApplication",
+  "identity": "JOS.ConsoleApplication",
+  "shortName": "jos.console",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "JOS.ConsoleApplication",
+  "preferNameDirectory": "true"
+}
