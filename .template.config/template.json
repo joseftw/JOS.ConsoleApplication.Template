@@ -8,5 +8,14 @@
     "language": "C#"
   },
   "sourceName": "JOS.ConsoleApplication",
-  "preferNameDirectory": "true"
+  "preferNameDirectory": "true",
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ ".vs/**", ".git/**" ],
+        }
+      ]
+    }
+  ]
 }
