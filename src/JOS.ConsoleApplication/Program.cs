@@ -38,6 +38,11 @@ namespace JOS.ConsoleApplication
                 .ConfigureLogging((hostingContext, logging) =>
                 {
                     logging.AddSerilog(dispose: true);
+                })
+                .UseDefaultServiceProvider((context, options) =>
+                {
+                    options.ValidateOnBuild = true;
+                    options.ValidateScopes = true;
                 });
 
             var host = builder.Build();
