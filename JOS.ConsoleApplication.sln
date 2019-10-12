@@ -7,20 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JOS.ConsoleApplication", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{8AC382C8-506C-4D13-87BC-51494345AB85}"
 	ProjectSection(SolutionItems) = preProject
-		..\.gitattributes = ..\.gitattributes
-		..\.gitignore = ..\.gitignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
 		global.json = global.json
-		..\README.md = ..\README.md
-		..\.template.config\template.json = ..\.template.config\template.json
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.ConsoleApplication.Core", "src\JOS.ConsoleApplication.Core\JOS.ConsoleApplication.Core.csproj", "{B44D8465-A61E-471A-AC53-343094C32D83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JOS.ConsoleApplication.Core", "src\JOS.ConsoleApplication.Core\JOS.ConsoleApplication.Core.csproj", "{B44D8465-A61E-471A-AC53-343094C32D83}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E702CF83-A25B-4854-92F8-7B7DDC01B4EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E40E6DC9-28C9-4BD6-B9DB-C9EE7607322F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.ConsoleApplication.Tests", "test\JOS.ConsoleApplication.Tests\JOS.ConsoleApplication.Tests.csproj", "{6E4F7912-8964-40A9-9479-7276EAAB0CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JOS.ConsoleApplication.Tests", "test\JOS.ConsoleApplication.Tests\JOS.ConsoleApplication.Tests.csproj", "{6E4F7912-8964-40A9-9479-7276EAAB0CEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
